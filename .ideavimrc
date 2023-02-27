@@ -1,0 +1,7 @@
+source ~/.vimrc
+
+nnoremap zc :action CollapseRegion<CR>
+nnoremap zo :action ExpandRegion<CR>
+
+nnoremap <c-w>L :action MoveEditorToOppositeTabGroup<cr>
+nnoremap <c-w>H :action MoveEditorToOppositeTabGroup<cr>
