@@ -59,4 +59,5 @@ vnoremap < <gv
 xnoremap p "_dP
 
 let mapleader = " "
-nnoremap <Leader>s :%s/\<<C-r><C-w>\>/
+nnoremap <Leader>s :%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left> 
+
