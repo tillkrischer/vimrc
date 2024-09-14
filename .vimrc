@@ -1,4 +1,4 @@
-language en_US.utf8
+language en_US
 
 syntax on
 
@@ -60,4 +60,13 @@ xnoremap p "_dP
 
 let mapleader = " "
 nnoremap <Leader>s :%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left> 
+
+nnoremap <C-U> <C-U>zz
+nnoremap <C-D> <C-D>zz
+
+nmap <C-h> <C-w>h
+nmap <C-j> <C-w>j
+nmap <C-k> <C-w>k
+nmap <C-l> <C-w>l
+
 
